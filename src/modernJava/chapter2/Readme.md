@@ -17,7 +17,7 @@
 추상화된 조건들을 클래스로 정의하여 다양한 조건 클래스를 만들 수 있지만
 한번 만 사용한다면 이러한 행위는 번거롭다고 생각할 수 있다.
 
-한번 만 사용하거나 임시적으러 사용할 경우 익명클래스를 사용하면 편리하다.
+한번 만 사용하거나 임시로 사용할 경우 익명클래스를 사용하면 편리하다.
 익명클래스는 `이름 없는 클래스로 클래스 선언과 인스턴스화를 동시에 할 수 있다.`
 익명 클래스는 추상 조건을 사용하는 곳에서 바로 만들어서 사용할 수 있다.
 
@@ -31,8 +31,13 @@ List<apple> redApples = filterapples(inventory, new ApplePredicate(){
 
 요구사항을 대응하는 방법
 
-1. 녹색 사과 필터링
-2. 색을 파라미터화
+1. 단일 조건 필터링
+2. 조건을 파라미터로 받기
+    ```
+    private List<Apple> filter(List<Apple> apples, String color){
+        //TODO...
+    }
+    ```
 3. 가능한 모든 속성을 필터링
    ```
    private List<Apple> filter(List<Apple> apples, String color, Integer weight, Boolean flag){
