@@ -1,4 +1,4 @@
-package modernJava.chapter4;
+package modernJava.chapter5;
 
 import java.util.Arrays;
 import java.util.List;

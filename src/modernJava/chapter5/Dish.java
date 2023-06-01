@@ -1,4 +1,4 @@
-package modernJava.chapter4;
+package modernJava.chapter5;
 
 public class Dish {
     private final String name;
