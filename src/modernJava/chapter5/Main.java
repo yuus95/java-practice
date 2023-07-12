@@ -32,6 +32,7 @@ public class Main {
                 .stream()
                 .flatMap(i -> secondList.stream())
                 .collect(Collectors.toList());
+        
         Stream<Dish> stream = menu.stream();
         List<String> stringTemp = List.of("temp");
         Stream<Integer> integerStream = List.of(1, 2, 3, 4).stream();
