@@ -1,4 +1,4 @@
-package modernJava.chapter5;
+package modernJava.transaction;
 
 import java.util.Arrays;
 
