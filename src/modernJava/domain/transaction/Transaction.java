@@ -1,4 +1,4 @@
-package modernJava.transaction;
+package modernJava.domain.transaction;
 
 public class Transaction {
     private final Trader trader;

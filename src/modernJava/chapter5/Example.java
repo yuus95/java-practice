@@ -1,7 +1,7 @@
 package modernJava.chapter5;
 
-import modernJava.transaction.Transaction;
-import modernJava.transaction.TransactionFactory;
+import modernJava.domain.transaction.Transaction;
+import modernJava.domain.transaction.TransactionFactory;
 
 import java.util.Arrays;
 import java.util.Collections;

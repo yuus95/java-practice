@@ -1,4 +1,4 @@
-package modernJava.chapter5;
+package modernJava.domain.dish;
 
 public class Dish {
     private final String name;
@@ -25,11 +25,20 @@ public class Dish {
         return calories;
     }
 
+    public CaloricLevel getCaloricLevel() {
+        if (this.getCalories() < 400) {
+            return CaloricLevel.DIET;
+        } else if (this.getCalories() < 700) {
+            return CaloricLevel.NORMAL;
+        }
+        return CaloricLevel.FAT;
+    }
+
     public Type getType() {
         return type;
     }
 
-    public enum Type { MEAT,FISH,OTHER}
+    public enum Type {MEAT, FISH, OTHER}
 
     @Override
     public String toString() {

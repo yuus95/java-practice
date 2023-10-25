@@ -1,6 +1,4 @@
-package modernJava.transaction;
-
-import java.util.Arrays;
+package modernJava.domain.transaction;
 
 public class Trader {
     private final String name;

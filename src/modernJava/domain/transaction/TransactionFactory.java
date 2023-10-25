@@ -1,4 +1,4 @@
-package modernJava.transaction;
+package modernJava.domain.transaction;
 
 import java.util.Arrays;
 import java.util.List;
