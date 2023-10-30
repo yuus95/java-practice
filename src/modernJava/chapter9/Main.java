@@ -1,4 +1,4 @@
-package modernJava.chapter8;
+package modernJava.chapter9;
 
 import modernJava.domain.dish.CaloricLevel;
 import modernJava.domain.dish.Dish;

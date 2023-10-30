@@ -1,4 +1,4 @@
-package modernJava.chapter8;
+package modernJava.chapter9;
 
 public class IsAllLowercase implements ValidationStrategy {
     @Override
